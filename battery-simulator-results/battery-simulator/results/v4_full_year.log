@@ -1,0 +1,734 @@
+INFO:data.fetch_oree:Loading 131 days of RDN prices...
+INFO:data.fetch_oree:Fetched prices for 2026-01-01: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-01
+INFO:data.fetch_oree:Progress: 0/131 days loaded
+INFO:data.fetch_oree:Fetched prices for 2026-01-02: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-02
+INFO:data.fetch_oree:Fetched prices for 2026-01-03: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-03
+INFO:data.fetch_oree:Fetched prices for 2026-01-04: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-04
+INFO:data.fetch_oree:Fetched prices for 2026-01-05: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-05
+INFO:data.fetch_oree:Fetched prices for 2026-01-06: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-06
+INFO:data.fetch_oree:Fetched prices for 2026-01-07: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-07
+INFO:data.fetch_oree:Fetched prices for 2026-01-08: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-08
+INFO:data.fetch_oree:Fetched prices for 2026-01-09: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-09
+INFO:data.fetch_oree:Fetched prices for 2026-01-10: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-10
+INFO:data.fetch_oree:Fetched prices for 2026-01-11: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-11
+INFO:data.fetch_oree:Fetched prices for 2026-01-12: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-12
+INFO:data.fetch_oree:Fetched prices for 2026-01-13: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-13
+INFO:data.fetch_oree:Fetched prices for 2026-01-14: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-14
+INFO:data.fetch_oree:Fetched prices for 2026-01-15: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-15
+INFO:data.fetch_oree:Fetched prices for 2026-01-16: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-16
+INFO:data.fetch_oree:Fetched prices for 2026-01-17: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-17
+INFO:data.fetch_oree:Fetched prices for 2026-01-18: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-18
+INFO:data.fetch_oree:Fetched prices for 2026-01-19: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-19
+INFO:data.fetch_oree:Fetched prices for 2026-01-20: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-20
+INFO:data.fetch_oree:Fetched prices for 2026-01-21: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-21
+INFO:data.fetch_oree:Fetched prices for 2026-01-22: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-22
+INFO:data.fetch_oree:Fetched prices for 2026-01-23: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-23
+INFO:data.fetch_oree:Fetched prices for 2026-01-24: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-24
+INFO:data.fetch_oree:Fetched prices for 2026-01-25: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-25
+INFO:data.fetch_oree:Fetched prices for 2026-01-26: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-26
+INFO:data.fetch_oree:Fetched prices for 2026-01-27: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-27
+INFO:data.fetch_oree:Fetched prices for 2026-01-28: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-28
+INFO:data.fetch_oree:Fetched prices for 2026-01-29: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-29
+INFO:data.fetch_oree:Fetched prices for 2026-01-30: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-30
+INFO:data.fetch_oree:Fetched prices for 2026-01-31: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-01-31
+INFO:data.fetch_oree:Progress: 30/131 days loaded
+INFO:data.fetch_oree:Fetched prices for 2026-02-01: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-01
+INFO:data.fetch_oree:Fetched prices for 2026-02-02: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-02
+INFO:data.fetch_oree:Fetched prices for 2026-02-03: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-03
+INFO:data.fetch_oree:Fetched prices for 2026-02-04: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-04
+INFO:data.fetch_oree:Fetched prices for 2026-02-05: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-05
+INFO:data.fetch_oree:Fetched prices for 2026-02-06: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-06
+INFO:data.fetch_oree:Fetched prices for 2026-02-07: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-07
+INFO:data.fetch_oree:Fetched prices for 2026-02-08: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-08
+INFO:data.fetch_oree:Fetched prices for 2026-02-09: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-09
+INFO:data.fetch_oree:Fetched prices for 2026-02-10: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-10
+INFO:data.fetch_oree:Fetched prices for 2026-02-11: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-11
+INFO:data.fetch_oree:Fetched prices for 2026-02-12: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-12
+INFO:data.fetch_oree:Fetched prices for 2026-02-13: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-13
+INFO:data.fetch_oree:Fetched prices for 2026-02-14: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-14
+INFO:data.fetch_oree:Fetched prices for 2026-02-15: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-15
+INFO:data.fetch_oree:Fetched prices for 2026-02-16: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-16
+INFO:data.fetch_oree:Fetched prices for 2026-02-17: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-17
+INFO:data.fetch_oree:Fetched prices for 2026-02-18: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-18
+INFO:data.fetch_oree:Fetched prices for 2026-02-19: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-19
+INFO:data.fetch_oree:Fetched prices for 2026-02-20: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-20
+INFO:data.fetch_oree:Fetched prices for 2026-02-21: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-21
+INFO:data.fetch_oree:Fetched prices for 2026-02-22: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-22
+INFO:data.fetch_oree:Fetched prices for 2026-02-23: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-23
+INFO:data.fetch_oree:Fetched prices for 2026-02-24: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-24
+INFO:data.fetch_oree:Fetched prices for 2026-02-25: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-25
+INFO:data.fetch_oree:Fetched prices for 2026-02-26: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-26
+INFO:data.fetch_oree:Fetched prices for 2026-02-27: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-27
+INFO:data.fetch_oree:Fetched prices for 2026-02-28: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-02-28
+INFO:data.fetch_oree:Fetched prices for 2026-03-01: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-01
+INFO:data.fetch_oree:Fetched prices for 2026-03-02: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-02
+INFO:data.fetch_oree:Progress: 60/131 days loaded
+INFO:data.fetch_oree:Fetched prices for 2026-03-03: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-03
+INFO:data.fetch_oree:Fetched prices for 2026-03-04: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-04
+INFO:data.fetch_oree:Fetched prices for 2026-03-05: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-05
+INFO:data.fetch_oree:Fetched prices for 2026-03-06: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-06
+INFO:data.fetch_oree:Fetched prices for 2026-03-07: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-07
+INFO:data.fetch_oree:Fetched prices for 2026-03-08: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-08
+INFO:data.fetch_oree:Fetched prices for 2026-03-09: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-09
+INFO:data.fetch_oree:Fetched prices for 2026-03-10: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-10
+INFO:data.fetch_oree:Fetched prices for 2026-03-11: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-11
+INFO:data.fetch_oree:Fetched prices for 2026-03-12: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-12
+INFO:data.fetch_oree:Fetched prices for 2026-03-13: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-13
+INFO:data.fetch_oree:Fetched prices for 2026-03-14: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-14
+INFO:data.fetch_oree:Fetched prices for 2026-03-15: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-15
+INFO:data.fetch_oree:Fetched prices for 2026-03-16: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-16
+INFO:data.fetch_oree:Fetched prices for 2026-03-17: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-17
+INFO:data.fetch_oree:Fetched prices for 2026-03-18: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-18
+INFO:data.fetch_oree:Fetched prices for 2026-03-19: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-19
+INFO:data.fetch_oree:Fetched prices for 2026-03-20: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-20
+INFO:data.fetch_oree:Fetched prices for 2026-03-21: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-21
+INFO:data.fetch_oree:Fetched prices for 2026-03-22: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-22
+INFO:data.fetch_oree:Fetched prices for 2026-03-23: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-23
+INFO:data.fetch_oree:Fetched prices for 2026-03-24: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-24
+INFO:data.fetch_oree:Fetched prices for 2026-03-25: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-25
+INFO:data.fetch_oree:Fetched prices for 2026-03-26: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-26
+INFO:data.fetch_oree:Fetched prices for 2026-03-27: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-27
+INFO:data.fetch_oree:Fetched prices for 2026-03-28: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-28
+INFO:data.fetch_oree:Fetched prices for 2026-03-29: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-29
+INFO:data.fetch_oree:Fetched prices for 2026-03-30: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-30
+INFO:data.fetch_oree:Fetched prices for 2026-03-31: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-03-31
+INFO:data.fetch_oree:Fetched prices for 2026-04-01: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-01
+INFO:data.fetch_oree:Progress: 90/131 days loaded
+INFO:data.fetch_oree:Fetched prices for 2026-04-02: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-02
+INFO:data.fetch_oree:Fetched prices for 2026-04-03: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-03
+INFO:data.fetch_oree:Fetched prices for 2026-04-04: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-04
+INFO:data.fetch_oree:Fetched prices for 2026-04-05: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-05
+INFO:data.fetch_oree:Fetched prices for 2026-04-06: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-06
+INFO:data.fetch_oree:Fetched prices for 2026-04-07: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-07
+INFO:data.fetch_oree:Fetched prices for 2026-04-08: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-08
+INFO:data.fetch_oree:Fetched prices for 2026-04-09: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-09
+INFO:data.fetch_oree:Fetched prices for 2026-04-10: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-10
+INFO:data.fetch_oree:Fetched prices for 2026-04-11: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-11
+INFO:data.fetch_oree:Fetched prices for 2026-04-12: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-12
+INFO:data.fetch_oree:Fetched prices for 2026-04-13: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-13
+INFO:data.fetch_oree:Fetched prices for 2026-04-14: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-14
+INFO:data.fetch_oree:Fetched prices for 2026-04-15: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-15
+INFO:data.fetch_oree:Fetched prices for 2026-04-16: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-16
+INFO:data.fetch_oree:Fetched prices for 2026-04-17: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-17
+INFO:data.fetch_oree:Fetched prices for 2026-04-18: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-18
+INFO:data.fetch_oree:Fetched prices for 2026-04-19: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-19
+INFO:data.fetch_oree:Fetched prices for 2026-04-20: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-20
+INFO:data.fetch_oree:Fetched prices for 2026-04-21: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-21
+INFO:data.fetch_oree:Fetched prices for 2026-04-22: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-22
+INFO:data.fetch_oree:Fetched prices for 2026-04-23: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-23
+INFO:data.fetch_oree:Fetched prices for 2026-04-24: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-24
+INFO:data.fetch_oree:Fetched prices for 2026-04-25: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-25
+INFO:data.fetch_oree:Fetched prices for 2026-04-26: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-26
+INFO:data.fetch_oree:Fetched prices for 2026-04-27: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-27
+INFO:data.fetch_oree:Fetched prices for 2026-04-28: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-28
+INFO:data.fetch_oree:Fetched prices for 2026-04-29: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-29
+INFO:data.fetch_oree:Fetched prices for 2026-04-30: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-04-30
+INFO:data.fetch_oree:Fetched prices for 2026-05-01: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-01
+INFO:data.fetch_oree:Progress: 120/131 days loaded
+INFO:data.fetch_oree:Fetched prices for 2026-05-02: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-02
+INFO:data.fetch_oree:Fetched prices for 2026-05-03: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-03
+INFO:data.fetch_oree:Fetched prices for 2026-05-04: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-04
+INFO:data.fetch_oree:Fetched prices for 2026-05-05: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-05
+INFO:data.fetch_oree:Fetched prices for 2026-05-06: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-06
+INFO:data.fetch_oree:Fetched prices for 2026-05-07: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-07
+INFO:data.fetch_oree:Fetched prices for 2026-05-08: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-08
+INFO:data.fetch_oree:Fetched prices for 2026-05-09: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-09
+INFO:data.fetch_oree:Fetched prices for 2026-05-10: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-10
+INFO:data.fetch_oree:Fetched prices for 2026-05-11: 24 hours
+INFO:data.fetch_oree:Stored 24 prices for 2026-05-11
+INFO:data.fetch_oree:✅ Loaded 131/131 dates successfully
+INFO:data.fetch_oree:Generating demand profile for 131 days...
+INFO:data.fetch_oree:Generated 30/131 days of demand
+INFO:data.fetch_oree:Generated 60/131 days of demand
+INFO:data.fetch_oree:Generated 90/131 days of demand
+INFO:data.fetch_oree:Generated 120/131 days of demand
+INFO:data.fetch_oree:✅ Generated demand profile for 131 days
+INFO:simulator:======================================================================
+INFO:simulator:ANNUAL SIMULATION: 2026-01-01 to 2026-05-11
+INFO:simulator:Total days: 131
+INFO:simulator:======================================================================
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-01 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-01 → Revenue: 19,950 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-02 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-02 → Revenue: 20,396 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-03 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-03 → Revenue: 20,730 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-04 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-04 → Revenue: 20,877 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-05 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-05 → Revenue: 21,336 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-06 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-06 → Revenue: 21,722 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-07 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-07 → Revenue: 21,871 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-08 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-08 → Revenue: 22,518 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-09 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-09 → Revenue: 22,940 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-10 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-10 → Revenue: 23,287 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-11 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-11 → Revenue: 23,344 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-12 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-12 → Revenue: 24,054 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-13 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-13 → Revenue: 24,666 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-14 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-14 → Revenue: 24,588 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-15 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-15 → Revenue: 25,271 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-16 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-16 → Revenue: 25,941 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-17 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-17 → Revenue: 25,883 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-18 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-18 → Revenue: 26,349 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-19 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-19 → Revenue: 26,608 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-20 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-20 → Revenue: 26,903 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-21 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-21 → Revenue: 27,456 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-22 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-22 → Revenue: 27,493 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-23 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-23 → Revenue: 28,215 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-24 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-24 → Revenue: 28,451 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-25 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-25 → Revenue: 29,276 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-26 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-26 → Revenue: 29,037 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-27 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-27 → Revenue: 29,983 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-28 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-28 → Revenue: 30,299 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-29 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-29 → Revenue: 30,552 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-30 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-30 → Revenue: 30,735 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:simulator:Day  30/131: 2026-01-30 - Revenue:   30,735 грн | YTD:    760,734 грн | Progress:  22.9%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-01-31 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-01-31 → Revenue: 31,841 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-01 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-01 → Revenue: 31,881 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-02 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-02 → Revenue: 32,446 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-03 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-03 → Revenue: 32,827 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-04 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-04 → Revenue: 32,914 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-05 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-05 → Revenue: 33,488 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-06 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-06 → Revenue: 33,948 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-07 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-07 → Revenue: 34,032 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-08 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-08 → Revenue: 34,893 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-09 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-09 → Revenue: 35,400 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-10 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-10 → Revenue: 35,789 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-11 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-11 → Revenue: 35,729 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-12 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-12 → Revenue: 36,670 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-13 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-13 → Revenue: 37,457 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-14 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-14 → Revenue: 37,191 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-15 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-15 → Revenue: 38,079 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-16 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-16 → Revenue: 38,942 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-17 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-17 → Revenue: 38,709 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-18 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-18 → Revenue: 39,259 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-19 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-19 → Revenue: 39,500 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-20 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-20 → Revenue: 39,793 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-21 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-21 → Revenue: 40,468 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-22 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-22 → Revenue: 40,379 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-23 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-23 → Revenue: 41,297 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-24 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-24 → Revenue: 41,498 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-25 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-25 → Revenue: 42,558 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-26 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-26 → Revenue: 42,067 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-27 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-27 → Revenue: 43,295 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-02-28 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-02-28 → Revenue: 43,608 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-01 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-01 → Revenue: 43,965 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:simulator:Day  60/131: 2026-03-01 - Revenue:   43,965 грн | YTD:  1,890,655 грн | Progress:  45.8%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-02 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-02 → Revenue: 44,619 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-03 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-03 → Revenue: 45,016 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-04 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-04 → Revenue: 45,010 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-05 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-05 → Revenue: 45,669 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-06 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-06 → Revenue: 46,171 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-07 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-07 → Revenue: 46,159 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-08 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-08 → Revenue: 47,204 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-09 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-09 → Revenue: 47,763 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-10 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-10 → Revenue: 48,162 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-11 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-11 → Revenue: 47,956 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-12 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-12 → Revenue: 49,096 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-13 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-13 → Revenue: 50,025 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-14 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-14 → Revenue: 49,543 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-15 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-15 → Revenue: 50,602 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-16 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-16 → Revenue: 51,622 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-17 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-17 → Revenue: 51,189 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-18 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-18 → Revenue: 51,791 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-19 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-19 → Revenue: 51,986 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-20 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-20 → Revenue: 52,247 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-21 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-21 → Revenue: 53,011 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-22 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-22 → Revenue: 52,770 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-23 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-23 → Revenue: 53,848 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-24 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-24 → Revenue: 53,986 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-25 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-25 → Revenue: 55,243 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-26 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-26 → Revenue: 54,483 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-27 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-27 → Revenue: 55,951 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-28 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-28 → Revenue: 56,231 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-29 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-29 → Revenue: 56,395 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-30 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-30 → Revenue: 56,431 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-03-31 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-03-31 → Revenue: 58,156 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:simulator:Day  90/131: 2026-03-31 - Revenue:   58,156 грн | YTD:  3,418,994 грн | Progress:  68.7%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-01 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-01 → Revenue: 43,816 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-02 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-02 → Revenue: 44,431 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-03 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-03 → Revenue: 44,704 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-04 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-04 → Revenue: 44,452 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-05 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-05 → Revenue: 45,068 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-06 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-06 → Revenue: 45,479 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-07 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-07 → Revenue: 45,218 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-08 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-08 → Revenue: 46,331 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-09 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-09 → Revenue: 46,810 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-10 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-10 → Revenue: 47,081 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-11 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-11 → Revenue: 46,571 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-12 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-12 → Revenue: 47,796 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-13 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-13 → Revenue: 48,744 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-14 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-14 → Revenue: 47,882 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-15 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-15 → Revenue: 48,994 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-16 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-16 → Revenue: 50,053 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-17 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-17 → Revenue: 49,258 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-18 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-18 → Revenue: 49,780 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-19 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-19 → Revenue: 49,786 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-20 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-20 → Revenue: 49,876 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-21 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-21 → Revenue: 50,601 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-22 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-22 → Revenue: 50,057 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-23 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-23 → Revenue: 51,175 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-24 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-24 → Revenue: 51,108 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-25 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-25 → Revenue: 52,445 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-26 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-26 → Revenue: 51,255 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-27 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-27 → Revenue: 52,850 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-28 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-28 → Revenue: 52,960 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-29 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-29 → Revenue: 52,927 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-04-30 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-04-30 → Revenue: 52,736 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:simulator:Day 120/131: 2026-04-30 - Revenue:   52,736 грн | YTD:  4,879,237 грн | Progress:  91.6%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-01 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-01 → Revenue: 53,786 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-02 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-02 → Revenue: 54,445 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-03 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-03 → Revenue: 54,681 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-04 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-04 → Revenue: 54,277 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-05 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-05 → Revenue: 54,932 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-06 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-06 → Revenue: 55,336 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-07 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-07 → Revenue: 54,921 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-08 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-08 → Revenue: 56,177 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-09 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-09 → Revenue: 56,661 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-10 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-10 → Revenue: 56,892 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:optimizer_v4_scipy:[V4] Optimizing 2026-05-11 with scipy.optimize.linprog (strict energy conservation)
+INFO:optimizer_v4_scipy:[V4] LP: 192 variables, 72 inequality + 48 equality constraints
+INFO:optimizer_v4_scipy:[V4] 2026-05-11 → Revenue: 56,180 грн, Energy balance error: 0.0 kWh, PV util: 100.0%
+INFO:simulator:Day 131/131: 2026-05-11 - Revenue:   56,180 грн | YTD:  5,487,524 грн | Progress: 100.0%
+INFO:simulator:
+======================================================================
+INFO:simulator:SIMULATION COMPLETE
+INFO:simulator:Annual Revenue: 5,487,523.93 грн
+INFO:simulator:Average Daily: 41,889.50 грн
+INFO:simulator:PV Generation: 1,102.1 MWh
+INFO:simulator:Grid Sold: 1,119.9 MWh
+INFO:simulator:Battery Cycles: 4.9
+INFO:simulator:Battery Degradation: 0.01%
+INFO:simulator:======================================================================
+
+INFO:simulator:Results exported to /home/openclaw/.openclaw/workspace/battery-simulator/results/simulation_results.json
+INFO:simulator:Daily summary exported to /home/openclaw/.openclaw/workspace/battery-simulator/results/daily_summary.csv
+INFO:simulator:Monthly summary exported to /home/openclaw/.openclaw/workspace/battery-simulator/results/monthly_summary.csv
+
+======================================================================
+ BATTERY SIMULATOR - FULL YEAR RUN
+======================================================================
+
+[1/3] Preparing price data (OREE)...
+
+[2/3] Generating site demand profile...
+
+[3/3] Running full-year simulation...
+      (This will optimize 365 days × 24 hours)
+
+
+[4/3] Exporting results...
+
+======================================================================
+ SIMULATION COMPLETE ✅
+======================================================================
+
+📊 ANNUAL RESULTS:
+   Total Revenue:           5,487,523.93 грн
+   Daily Average:              41,889.50 грн
+   Hourly Average:              1,745.40 грн
+
+⚡ ENERGY FLOWS (MWh):
+   PV Generation:                1,102.1
+   Grid Purchased:                   0.0
+   Grid Sold:                    1,119.9
+   CHP Output:                       0.0
+
+🔋 BATTERY STATS:
+   Total Cycles:                     4.9
+   Charge (MWh):                    26.6
+   Discharge (MWh):                 22.3
+   Final Capacity:               4,999.3 kWh
+   Degradation:                     0.01%
+
+📁 EXPORTS:
+   /home/openclaw/.openclaw/workspace/battery-simulator/results/simulation_results.json
+   /home/openclaw/.openclaw/workspace/battery-simulator/results/daily_summary.csv
+   /home/openclaw/.openclaw/workspace/battery-simulator/results/monthly_summary.csv
+
+======================================================================
