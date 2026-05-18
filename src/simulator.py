@@ -4,15 +4,16 @@ Runs 365 days × 24h rolling window optimizations
 Produces annual revenue, statistics, and detailed dispatch logs
 """
 
-import sqlite3
+import os
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List
 import json
 import logging
-import os
 from dotenv import load_dotenv
 
+# Use centralized PostgreSQL connector
+from db_connector import DBConnector
 from optimizer_v5_scipy import Optimizer24hV5SciPy as Optimizer24h, EnergySourceConfig as EnergyConfig
 
 load_dotenv()
@@ -23,74 +24,77 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-DB_PATH = Path(__file__).parent.parent / "data.db"
-
 
 class AnnualSimulator:
     """Run full-year simulation (365 days × 24h)"""
     
-    def __init__(self, config: EnergyConfig, db_path=DB_PATH):
+    def __init__(self, config: EnergyConfig):
         self.config = config
-        self.db_path = db_path
-        self.optimizer = Optimizer24h(config, db_path)
+        self.optimizer = Optimizer24h(config)
         self._init_results_table()
     
     def _init_results_table(self):
-        """Initialize database table for dispatch results"""
-        conn = sqlite3.connect(self.db_path)
-        cursor = conn.cursor()
-        
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS dispatch_results (
-                id INTEGER PRIMARY KEY,
-                date TEXT NOT NULL,
-                hour INTEGER NOT NULL,
-                price_hrn_per_mwh REAL,
-                pv_kw REAL,
-                grid_buy_kw REAL,
-                grid_sell_kw REAL,
-                chp_kw REAL,
-                battery_charge_kw REAL,
-                battery_discharge_kw REAL,
-                battery_soc_kwh REAL,
-                revenue_hrn REAL,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        """)
-        
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS daily_summary (
-                date TEXT PRIMARY KEY,
-                revenue_hrn REAL,
-                pv_mwh REAL,
-                grid_sold_mwh REAL,
-                grid_bought_mwh REAL,
-                chp_mwh REAL,
-                battery_charge_mwh REAL,
-                battery_discharge_mwh REAL,
-                battery_cycles REAL,
-                final_soc_kwh REAL,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        """)
-        
-        conn.commit()
-        conn.close()
+        """Initialize database tables for dispatch results in PostgreSQL"""
+        conn = DBConnector.get_connection()
+        try:
+            cursor = conn.cursor()
+            
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS dispatch_results (
+                    id SERIAL PRIMARY KEY,
+                    date DATE NOT NULL,
+                    hour INTEGER NOT NULL,
+                    price_hrn_per_mwh REAL,
+                    pv_kw REAL,
+                    grid_buy_kw REAL,
+                    grid_sell_kw REAL,
+                    chp_kw REAL,
+                    battery_charge_kw REAL,
+                    battery_discharge_kw REAL,
+                    battery_soc_kwh REAL,
+                    revenue_hrn REAL,
+                    created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+                )
+            """)
+            
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS daily_summary (
+                    date DATE PRIMARY KEY,
+                    revenue_hrn REAL,
+                    pv_mwh REAL,
+                    grid_sold_mwh REAL,
+                    grid_bought_mwh REAL,
+                    chp_mwh REAL,
+                    battery_charge_mwh REAL,
+                    battery_discharge_mwh REAL,
+                    battery_cycles REAL,
+                    final_soc_kwh REAL,
+                    created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+                )
+            """)
+            
+            conn.commit()
+            cursor.close()
+        finally:
+            DBConnector.release_connection(conn)
     
     def simulate_year(self, start_date: str, end_date: str) -> Dict:
         """
-        Simulate full year with 24h rolling windows
+        Simulate full year with 24h rolling windows using PostgreSQL
         """
-        # 1. Clear previous results from SQLite to avoid mixing data
-        conn = sqlite3.connect(self.db_path)
-        cursor = conn.cursor()
-        cursor.execute("DELETE FROM dispatch_results")
-        cursor.execute("DELETE FROM daily_summary")
-        conn.commit()
-        conn.close()
+        # 1. Clear previous results
+        conn = DBConnector.get_connection()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("DELETE FROM dispatch_results")
+            cursor.execute("DELETE FROM daily_summary")
+            conn.commit()
+            cursor.close()
+        finally:
+            DBConnector.release_connection(conn)
 
-        # 2. Refresh config from DB just in case
-        self.config._load_from_db(self.db_path)
+        # 2. Refresh config from DB
+        self.config._load_from_db()
         logger.info(f"Config loaded: Battery {self.config.battery_capacity_kwh}kWh, SOC {self.config.battery_soc_min_percent}%-{self.config.battery_soc_max_percent}%")
 
         start = datetime.strptime(start_date, "%Y-%m-%d")
@@ -139,7 +143,7 @@ class AnnualSimulator:
             
             pv_total = sum(d["pv_total"] for d in dispatch) / 1000
             grid_sell = sum(d["grid_export"] for d in dispatch) / 1000
-            grid_buy = sum(d.get("grid_import_total", d.get("grid_import", 0)) for d in dispatch) / 1000
+            grid_buy = sum(d.get("grid_import_total", 0) for d in dispatch) / 1000
             chp_total = sum(d.get("chp_kw", 0) for d in dispatch) / 1000
             charge_total = sum(d["battery_charge"] for d in dispatch) / 1000
             discharge_total = sum(d["battery_discharge"] for d in dispatch) / 1000
@@ -147,21 +151,21 @@ class AnnualSimulator:
             
             for d in dispatch:
                 all_dispatch_records.append((
-                    date_str, d["hour"], d["price_rdn"],
-                    d["pv_total"], d.get("grid_import_total", d.get("grid_import", 0)), d["grid_export"],
-                    d.get("chp_kw", 0), d["battery_charge"], d["battery_discharge"],
-                    d["soc_after"], d["revenue"]
+                    date_str, int(d["hour"]), float(d["price_rdn"]),
+                    float(d["pv_total"]), float(d.get("grid_import_total", 0)), float(d["grid_export"]),
+                    float(d.get("chp_kw", 0)), float(d["battery_charge"]), float(d["battery_discharge"]),
+                    float(d["soc_after"]), float(d["revenue"])
                 ))
             
             current_soc = final_soc
-            annual_results["total_revenue_hrn"] += daily_revenue
-            annual_results["pv_generation_mwh"] += pv_total
-            annual_results["grid_purchased_mwh"] += grid_buy
-            annual_results["grid_sold_mwh"] += grid_sell
-            annual_results["chp_output_mwh"] += chp_total
-            annual_results["battery_cycles"] += battery_cycles
-            annual_results["battery_charge_mwh"] += charge_total
-            annual_results["battery_discharge_mwh"] += discharge_total
+            annual_results["total_revenue_hrn"] += float(daily_revenue)
+            annual_results["pv_generation_mwh"] += float(pv_total)
+            annual_results["grid_purchased_mwh"] += float(grid_buy)
+            annual_results["grid_sold_mwh"] += float(grid_sell)
+            annual_results["chp_output_mwh"] += float(chp_total)
+            annual_results["battery_cycles"] += float(battery_cycles)
+            annual_results["battery_charge_mwh"] += float(charge_total)
+            annual_results["battery_discharge_mwh"] += float(discharge_total)
             
             monthly_buckets[month_key]["revenue"] += daily_revenue
             monthly_buckets[month_key]["pv_mwh"] += pv_total
@@ -237,24 +241,25 @@ class AnnualSimulator:
         return results
     
     def _bulk_store_dispatch_details(self, all_records: List[tuple]):
-        """Store all detailed dispatch schedules in database in one transaction"""
+        """Store all detailed dispatch schedules in PostgreSQL in one transaction"""
         if not all_records: return
-        conn = sqlite3.connect(self.db_path)
-        cursor = conn.cursor()
+        conn = DBConnector.get_connection()
         try:
+            cursor = conn.cursor()
             cursor.executemany("""
                 INSERT INTO dispatch_results
                 (date, hour, price_hrn_per_mwh, pv_kw, grid_buy_kw, grid_sell_kw, 
                  chp_kw, battery_charge_kw, battery_discharge_kw, battery_soc_kwh, revenue_hrn)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, all_records)
             conn.commit()
-            logger.info(f"Bulk stored {len(all_records)} hourly records.")
+            logger.info(f"Bulk stored {len(all_records)} hourly records in PostgreSQL.")
+            cursor.close()
         except Exception as e:
             logger.error(f"Error in bulk storing dispatch records: {e}")
             conn.rollback()
         finally:
-            conn.close()
+            DBConnector.release_connection(conn)
     
     def export_results_json(self, results: Dict, output_path: Path):
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -271,7 +276,7 @@ class AnnualSimulator:
             writer.writeheader()
             writer.writerows(results['daily_results'])
         logger.info(f"Daily summary exported to {output_path}")
-    
+
     def export_monthly_csv(self, results: Dict, output_path: Path):
         import csv
         with open(output_path, 'w', newline='', encoding='utf-8') as f:
@@ -286,12 +291,12 @@ class AnnualSimulator:
 
 def main():
     config = EnergyConfig()
+    # Initial defaults, will be overridden by load_from_db
     config.pv_capacity_kw = 2500
     config.battery_capacity_kwh = 5000
-    config.chp_capacity_kw = 1000
     
-    start_date = "2025-05-10"
-    end_date = "2026-05-09"
+    start_date = "2025-01-01"
+    end_date = "2025-12-31"
     
     simulator = AnnualSimulator(config)
     results = simulator.simulate_year(start_date, end_date)
@@ -301,7 +306,6 @@ def main():
     
     simulator.export_results_json(results, output_dir / "simulation_results.json")
     simulator.export_daily_csv(results, output_dir / "daily_summary.csv")
-    simulator.export_monthly_csv(results, output_dir / "monthly_summary.csv")
     
     print("\n" + "=" * 70)
     print("FINAL RESULTS")

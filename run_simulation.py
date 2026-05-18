@@ -74,7 +74,7 @@ def main():
     config.battery_capex_uah_per_kwh = 6750.0
     config.battery_lifespan_cycles = 6000
     
-    simulator = AnnualSimulator(config, DB_PATH)
+    simulator = AnnualSimulator(config)
     results = simulator.simulate_year(start_date, end_date)
 
 

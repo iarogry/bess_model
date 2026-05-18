@@ -27,20 +27,21 @@
   - Round-Trip Efficiency (RTE): 80%.
 - **Algorithm:** Linear Programming (SciPy linprog) with 24-hour global window.
 
-#### 1.2 Data Management & Performance
-- **Bulk Insert:** `AnnualSimulator` collects all daily results and uses `executemany` to commit 8,760 records in a single transaction, eliminating N+1 query bottlenecks.
-- **Cleanup:** `dispatch_results` and `daily_summary` are truncated before each run.
-- **Sync:** Results are synced to PostgreSQL (`battery_sim` DB) after the simulation.
+### 1.2 Data Management & Performance
+- **Primary Database:** PostgreSQL (`battery_sim` DB). All core simulation modules (Simulator, Optimizer) connect directly to PostgreSQL.
+- **Centralized Connector:** `src/db_connector.py` manages a `psycopg2` connection pool for efficient database access.
+- **Bulk Insert:** `AnnualSimulator` collects all daily results and uses `executemany` with PostgreSQL `%s` syntax to commit 8,760 records in a single transaction.
+- **Cleanup:** Result tables are truncated before each run to ensure fresh datasets.
 
 ---
 
 ### 2. Economic Logic (Smart Tariffs)
 - **Arbitrage Transit:** Grid-to-Battery energy is treated as transit. Distribution and transmission tariffs are applied ONLY to local demand and technical battery losses (20%).
-- **Degradation Cost:** Based on CAPEX (6,750 UAH/kWh) and expected lifespan.
+- **Units:** The system automatically converts MW/MWh inputs from API/Config into internal kW/kWh for the optimizer.
 
 ### 2. **Data Layers**
-- **Source:** SQLite (`data.db`) for execution.
-- **Import:** `import_csv_data.py` (reads `data/*.csv`).
+- **Primary Source:** PostgreSQL (`battery_sim`).
+- **Import:** `import_csv_data.py` (migrated to Postgres).
 - **Tables:** `prices`, `pv_profile`, `demand`, `system_config`.
 
 ---

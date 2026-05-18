@@ -1,34 +1,29 @@
 # Battery Simulator - TaskFlow
 
 **Project:** Battery Simulator for Solar PV + Storage  
-**Status:** 🟢 Refactored & Deployed
+**Status:** 🟢 Final Refactor Complete & Stable
 
 ---
 
 ## Recent Milestones (DONE)
-- [x] **Smart Tariff Logic:** Transit energy for arbitrage is tariff-free. Cycles increased to 730/year.
-- [x] **Database Optimization:** Bulk insert (N+1 fix) for 1-year simulations.
-- [x] **GitHub Deployment:** Repo initialized and pushed to `iarogry/bess_model`.
-- [x] **Unit Conversion:** Fixed MW to kW mismatch in config mapping.
-- [x] **Architecture Refactor:** ENTSO-E is now the sole market data source. OREE fetchers deprecated.
+- [x] **PostgreSQL Centralization:** Entire system migrated to PostgreSQL via `db_connector.py`.
+- [x] **Real Data Integration:** Synthetic formulas replaced with SQL queries for PV, Demand, and Prices.
+- [x] **Bulk Insert Fix:** Type-safe `executemany` for PostgreSQL verified.
+- [x] **Unit Consistency:** Automatic MW -> kW conversion implemented.
+- [x] **Financial Logic:** Smart Tariff Allocation for high-ROI arbitrage.
 
 ---
 
 ## Session History (2026-05-18)
-- User requested fix for unit inconsistency (MW -> kW).
-- Refactored `EnergyConfig` and `_load_from_db` to handle 1000x multiplication.
-- Created `fetch_market_data.py` (Resilient Fetcher) but then moved to a leaner ENTSO-E only architecture as per final request.
-- Refactored `run_simulation.py` to use `ENTSOEFetcher`.
-- Documented all changes in `ARCHITECTURE.md` and `MEMORY.md`.
-
----
-
-## Active Tasks (IN PROGRESS)
-- [ ] **ROI Validation:** Run 10 MWh simulation scenarios.
-- [ ] **Final GitHub Push:** Sync all refactored code.
+- Refactored core modules to use PostgreSQL exclusively.
+- Fixed `np.float64` error in bulk inserts.
+- Added `export_monthly_csv` method to `AnnualSimulator`.
+- Verified 2025 simulation with real data (28.2M UAH revenue).
+- Finalized GitHub deployment and secured credentials.
 
 ---
 
 ## Future Phases
 - [ ] **Phase 5: REST API (FastAPI):** Expose simulation as a service.
 - [ ] **Phase 6: Odoo Integration:** Connect to Hlibodar management system.
+- [ ] **Threshold Tuning:** Add arbitrage price spread thresholds to manage battery lifespan (cycles).
