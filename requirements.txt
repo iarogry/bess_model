@@ -1,0 +1,5 @@
+pyomo>=6.5
+coincbc>=2.10  # CBC solver (free, open-source)
+requests>=2.28
+pandas>=1.5
+numpy>=1.23
