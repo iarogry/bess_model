@@ -1,29 +1,28 @@
 # Battery Simulator - TaskFlow
 
 **Project:** Battery Simulator for Solar PV + Storage  
-**Status:** 🟢 Final Refactor Complete & Stable
+**Status:** 🟢 Refactored, Bug-fixed & Stable
 
 ---
 
 ## Recent Milestones (DONE)
-- [x] **PostgreSQL Centralization:** Entire system migrated to PostgreSQL via `db_connector.py`.
-- [x] **Real Data Integration:** Synthetic formulas replaced with SQL queries for PV, Demand, and Prices.
-- [x] **Bulk Insert Fix:** Type-safe `executemany` for PostgreSQL verified.
-- [x] **Unit Consistency:** Automatic MW -> kW conversion implemented.
-- [x] **Financial Logic:** Smart Tariff Allocation for high-ROI arbitrage.
+- [x] **Smart Tariff Logic:** Transit energy for arbitrage is tariff-free.
+- [x] **Database Optimization:** Bulk insert for 1-year simulations.
+- [x] **GitHub Deployment:** Repo initialized and pushed to `iarogry/bess_model`.
+- [x] **PostgreSQL Integration:** Core modules migrated to centralized PostgreSQL.
+- [x] **Energy Balance Fix:** Closed simultaneous charge/discharge loophole via Global AC Bus Balance constraint. Fixed double-counting of imports and discharges.
 
 ---
 
 ## Session History (2026-05-18)
-- Refactored core modules to use PostgreSQL exclusively.
-- Fixed `np.float64` error in bulk inserts.
-- Added `export_monthly_csv` method to `AnnualSimulator`.
-- Verified 2025 simulation with real data (28.2M UAH revenue).
-- Finalized GitHub deployment and secured credentials.
+- Refactored database architecture to PostgreSQL.
+- Fixed unit inconsistency MW -> kW.
+- **Fixed energy double-counting bug:** Updated LP constraints to prevent energy serving demand and export/charging simultaneously.
+- Results confirmed that previous "super profits" were due to this mathematical loophole.
 
 ---
 
 ## Future Phases
-- [ ] **Phase 5: REST API (FastAPI):** Expose simulation as a service.
-- [ ] **Phase 6: Odoo Integration:** Connect to Hlibodar management system.
-- [ ] **Threshold Tuning:** Add arbitrage price spread thresholds to manage battery lifespan (cycles).
+- [ ] **ROI Validation:** Run simulation with 0 capacity to establish a cost baseline.
+- [ ] **Threshold Tuning:** Add arbitrage price spread thresholds to manage battery lifespan.
+- [ ] **REST API:** Expose simulation as a service.

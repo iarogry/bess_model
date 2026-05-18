@@ -252,27 +252,31 @@ class Optimizer24hV5SciPy:
             row[idx(h, 0)] = 1; row[idx(h, 1)] = 1; row[idx(h, 2)] = 1
             A_eq_list.append(row); b_eq_list.append(pv_profile[h])
             
-            # Energy balance
+            # ===== CONSTRAINT 2: Energy balance (demand satisfaction) =====
             row = np.zeros(n_vars)
-            row[idx(h, 0)] = -1; row[idx(h, 4)] = -1; row[idx(h, 5)] = -1
-            A_ub_list.append(row); b_ub_list.append(-demand_profile[h])
+            row[idx(h, 0)] = -1  # -pv_to_demand
+            row[idx(h, 4)] = -1  # -batt_discharge
+            row[idx(h, 5)] = -1  # -grid_import
+            row[idx(h, 7)] = 1   # +grid_to_batt (subtracting transit from import)
+            A_ub_list.append(row)
+            b_ub_list.append(-demand_profile[h])
             
-            # Battery charging
+            # ===== CONSTRAINT 3: Battery charging from PV + Grid =====
             row = np.zeros(n_vars)
             row[idx(h, 3)] = 1; row[idx(h, 2)] = -1; row[idx(h, 7)] = -1
             A_eq_list.append(row); b_eq_list.append(0)
             
-            # Grid import accounting
+            # ===== CONSTRAINT 4: Grid import accounting =====
             row = np.zeros(n_vars)
             row[idx(h, 5)] = 1; row[idx(h, 7)] = -1
             A_ub_list.append(row); b_ub_list.append(0)
             
-            # Grid export sources
+            # ===== CONSTRAINT 5: Grid export sources =====
             row = np.zeros(n_vars)
             row[idx(h, 6)] = 1; row[idx(h, 1)] = -1; row[idx(h, 4)] = -self.config.battery_efficiency_round_trip
             A_ub_list.append(row); b_ub_list.append(0)
             
-            # SoC dynamics
+            # ===== CONSTRAINT 6: SoC dynamics =====
             charge_eff = math.sqrt(self.config.battery_efficiency_round_trip)
             row = np.zeros(n_vars)
             row[idx(h, 3)] = charge_eff; row[idx(h, 4)] = -1; row[idx(h, 8)] = 1
@@ -281,6 +285,17 @@ class Optimizer24hV5SciPy:
             else:
                 row[idx(h-1, 8)] = -1
                 A_eq_list.append(row); b_eq_list.append(0)
+
+            # ===== CONSTRAINT 7: Global AC Bus Balance (Prevents Double Counting) =====
+            row = np.zeros(n_vars)
+            row[idx(h, 0)] = -1  # -pv_to_demand
+            row[idx(h, 1)] = -1  # -pv_to_export
+            row[idx(h, 4)] = -1  # -batt_discharge
+            row[idx(h, 5)] = -1  # -grid_import
+            row[idx(h, 6)] = 1   # +grid_export
+            row[idx(h, 7)] = 1   # +grid_to_batt
+            A_ub_list.append(row)
+            b_ub_list.append(-demand_profile[h])
         
         A_ub = np.array(A_ub_list); b_ub = np.array(b_ub_list)
         A_eq = np.array(A_eq_list); b_eq = np.array(b_eq_list)
