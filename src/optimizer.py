@@ -49,25 +49,32 @@ class EnergyConfig:
     
     @classmethod
     def from_user_input(cls, user_config: Dict) -> "EnergyConfig":
-        """Create from frontend user input"""
+        """Create from frontend user input with MW to kW conversion"""
         config = cls()
         
         if "energy_sources" in user_config:
             sources = user_config["energy_sources"]
             
+            # Helper to extract value and convert if needed
+            def get_val_kw(params, key_mw, key_kw, default):
+                if key_mw in params:
+                    return float(params[key_mw]) * 1000
+                return float(params.get(key_kw, default))
+
             if "pv" in sources:
-                config.pv_capacity_kw = sources["pv"].get("capacity_kw", 2500)
+                pv = sources["pv"]
+                config.pv_capacity_kw = get_val_kw(pv, "rated_power_mw", "capacity_kw", 2500)
             
             if "battery" in sources:
                 bat = sources["battery"]
-                config.battery_capacity_kwh = bat.get("capacity_kwh", 5000)
+                config.battery_capacity_kwh = get_val_kw(bat, "capacity_mwh", "capacity_kwh", 5000)
                 config.battery_efficiency = bat.get("efficiency_round_trip", 0.95)
-                config.battery_max_charge_kw = bat.get("max_charge_kw", 500)
-                config.battery_max_discharge_kw = bat.get("max_discharge_kw", 500)
+                config.battery_max_charge_kw = get_val_kw(bat, "max_charge_mw", "max_charge_kw", 500)
+                config.battery_max_discharge_kw = get_val_kw(bat, "max_discharge_mw", "max_discharge_kw", 500)
             
             if "chp" in sources:
                 chp = sources["chp"]
-                config.chp_capacity_kw = chp.get("capacity_kw", 1000)
+                config.chp_capacity_kw = get_val_kw(chp, "rated_power_mw", "capacity_kw", 1000)
                 config.chp_fuel_cost_hrn_per_mwh = chp.get("fuel_cost_hrn_per_mwh", 3500)
                 config.chp_startup_time_min = chp.get("startup_time_minutes", 5)
         

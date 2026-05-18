@@ -24,8 +24,9 @@
     - Created `import_csv_data.py`.
     - Generated templates: `data/prices.csv`, `data/pv_gen.csv`, `data/demand.csv`.
 
-### Update: 2026-05-15 (Part 2)
-- **Fixed Data Accumulation:** Added mandatory `DELETE FROM` for result tables in `src/simulator.py` to prevent mixing old and new data.
-- **Dynamic Config:** Modified `EnergySourceConfig` to prioritize values from the `system_config` table (populated via `config.csv`).
-- **Data Robustness:** Added NaN/None handling for all input profiles (Prices, PV, Demand) to prevent solver crashes.
-- **Performance Check:** 2025 run now correctly uses SOC 13-97% and yields ~344 cycles/year with 1MWh setup.
+### Session 5: Optimization & Deployment (2026-05-18)
+- **Economic Logic:** Implemented "Smart Tariff Allocation". Arbitrage transit is now tariff-free, increasing cycles to 730/year.
+- **Performance:** Fixed N+1 query issue in `simulator.py` via bulk `executemany` insertion.
+- **GitHub:** Deployed project to `https://github.com/iarogry/bess_model`.
+- **Security:** Moved credentials to `.env` and added `.gitignore`.
+- **Bugfixes:** Fixed `EnergySourceConfig` loading issues and venv dependencies.

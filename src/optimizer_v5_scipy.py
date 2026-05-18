@@ -37,29 +37,68 @@ class EnergySourceConfig:
     """Configuration for all energy sources"""
     
     def __init__(self):
-        # PV Solar
+        # Default Values (will be overridden by _load_from_db)
         self.pv_capacity_kw = 2500
         self.pv_efficiency = 0.95
-        
-        # Battery Storage
         self.battery_capacity_kwh = 5000
-        self.battery_soc_min_percent = 20
-        self.battery_soc_max_percent = 80
-        self.battery_efficiency_round_trip = 0.80  # 20% loss
-        self.battery_max_charge_kw = 500
-        self.battery_max_discharge_kw = 500
-        
-        # CHP
-        self.chp_enabled = True
+        self.battery_soc_min_percent = 13
+        self.battery_soc_max_percent = 97
+        self.battery_efficiency_round_trip = 0.80
+        self.battery_max_charge_kw = 2500
+        self.battery_max_discharge_kw = 2500
+        self.battery_degradation_cost_per_kwh = 0.1125
+        self.tariff_distribution = 1500.0
+        self.tariff_transmission = 800.0
         self.chp_capacity_kw = 1000
-        self.chp_efficiency_elec = 0.40
-        self.chp_fuel_cost_hrn_per_mwh = 3500
-        self.chp_startup_cost_hrn = 1000
-        self.chp_min_load_percent = 30
-        
-        # Grid
         self.grid_max_import_kw = 5000
         self.grid_max_export_kw = 5000
+
+    def _load_from_db(self, db_path):
+        """Load configuration from PostgreSQL with unit conversion (MW -> kW)"""
+        import os
+        import psycopg2
+        from dotenv import load_dotenv
+        load_dotenv()
+        
+        try:
+            conn = psycopg2.connect(
+                dbname=os.getenv("DB_NAME", "battery_sim"),
+                user=os.getenv("DB_USER", "iaroslav"),
+                password=os.getenv("DB_PASS", "vinylfun-1206"),
+                host=os.getenv("DB_HOST", "localhost"),
+                port=os.getenv("DB_PORT", "5432")
+            )
+            cursor = conn.cursor()
+            cursor.execute("SELECT parameter_name, value FROM system_config")
+            rows = cursor.fetchall()
+            
+            config_dict = {row[0]: row[1] for row in rows}
+            
+            if config_dict:
+                # Helper for unit conversion
+                def get_kw(key_mw, key_kw, default_val):
+                    if key_mw in config_dict:
+                        return float(config_dict[key_mw]) * 1000
+                    return float(config_dict.get(key_kw, default_val))
+
+                self.pv_capacity_kw = get_kw("rated_power_mw", "pv_capacity_kw", self.pv_capacity_kw)
+                self.battery_capacity_kwh = get_kw("capacity_mwh", "battery_capacity_kwh", self.battery_capacity_kwh)
+                self.battery_max_charge_kw = get_kw("max_charge_mw", "battery_max_charge_kw", self.battery_max_charge_kw)
+                self.battery_max_discharge_kw = get_kw("max_discharge_mw", "battery_max_discharge_kw", self.battery_max_discharge_kw)
+                
+                self.battery_soc_min_percent = float(config_dict.get("battery_soc_min_percent", self.battery_soc_min_percent))
+                self.battery_soc_max_percent = float(config_dict.get("battery_soc_max_percent", self.battery_soc_max_percent))
+                self.battery_efficiency_round_trip = float(config_dict.get("battery_efficiency_round_trip", self.battery_efficiency_round_trip))
+                self.battery_degradation_cost_per_kwh = float(config_dict.get("battery_degradation_cost_per_kwh", self.battery_degradation_cost_per_kwh))
+                self.tariff_distribution = float(config_dict.get("tariff_distribution", self.tariff_distribution))
+                self.tariff_transmission = float(config_dict.get("tariff_transmission", self.tariff_transmission))
+                
+                logger.info(f"Successfully loaded {len(config_dict)} parameters (with MW -> kW conversion where applicable)")
+            
+            cursor.close()
+            conn.close()
+        except Exception as e:
+            logger.warning(f"Could not load config from Postgres: {e}. Using defaults/SQLite.")
 
 
 class Optimizer24hV5SciPy:

@@ -10,8 +10,12 @@ from pathlib import Path
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from data.fetch_oree import OREEPriceFetcher, DemandProfileGenerator
+from data.fetch_entsoe import ENTSOEFetcher
 from simulator import AnnualSimulator, EnergyConfig
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 import logging
 
 logging.basicConfig(
@@ -43,9 +47,15 @@ def main():
     end_date = "2025-12-31"
     
     # ========================================
-    # STEP 1 & 2: Skip (Using real data from DB)
+    # STEP 1: Fetch/Refresh Market Data
     # ========================================
-    print("\n[1/3] Using real historical data from data.db...")
+    entsoe_token = os.getenv("ENTSOE_TOKEN")
+    if entsoe_token:
+        print(f"\n[1/3] Refreshing market data from ENTSO-E ({start_date} to {end_date})...")
+        fetcher = ENTSOEFetcher(security_token=entsoe_token, db_path=DB_PATH)
+        fetcher.load_historical_range(start_date, end_date)
+    else:
+        print("\n[1/3] ENTSOE_TOKEN not found, skipping refresh. Using data from DB.")
     
     # ========================================
     # STEP 3: Run Annual Simulation
